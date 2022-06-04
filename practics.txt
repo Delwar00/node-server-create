@@ -1,0 +1,55 @@
+const devs=[
+    {
+        id:1,
+        name:"Delwar",
+        age:20,
+        skill:"Mern Devs",
+        location:"Dhaka Uttara"
+    },
+    {
+        id:2,
+        name:"Pijush Karmokar",
+        age:25,
+        skill:"WordPress Devs",
+        location:"Dhaka Mirpur"
+    },
+    {
+        id:3,
+        name:"Khalek khan",
+        age:23,
+        skill:"PHP Devs",
+        location:"Dhaka Gulshan"
+    },
+    {
+        id:4,
+        name:"Rana",
+        age:20,
+        skill:"Python Devs",
+        location:"Dhaka Boksibazar"
+    },
+    {
+        id:5,
+        name:"Jillur",
+        age:30,
+        skill:"IOS Devs",
+        location:"Dhaka Poltan"
+    }
+];
+// console.log(devs.find((data)=>data.id==3))
+// console.log(devs.filter((data)=>data.id==3))
+// let index=devs.findIndex((data)=>data.id==3);
+// console.log(devs.lastIndexOf((data)=>data.id==3));
+
+// devs[index]={
+//     id:3,
+//     name:"Khalek khan",
+//     age:231,
+//     skill:"Java Devs",
+//     location:"Dhaka Mohammodpur"
+// }
+// console.log(devs);
+// let content=devs.find((data)=>data.id==3);
+// let name1=content.name;
+// let split_text=name1.split(' ');
+// let join_text=split_text.join('-');
+// console.log(join_text);
